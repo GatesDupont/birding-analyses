@@ -89,7 +89,7 @@ write_csv(estimates_tbl, "sar_estimates.csv")
 
 ---
 
-## 6. Customisation Tips
+## 6. Customization Tips
 
 * **Model start values** – tweak the `start = list(...)` entries if `nls` fails to converge for your checklist.
 * **Alternative SAR forms** – swap in a power or Michaelis–Menten model by changing the formula inside `nls()`.
