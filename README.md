@@ -92,7 +92,7 @@ write_csv(estimates_tbl, "sar_estimates.csv")
 ## 6. Customization Tips
 
 * **Model start values** – tweak the `start = list(...)` entries if `nls` fails to converge for your checklist.
-* **Alternative SAR forms** – swap in a power or Michaelis–Menten model by changing the formula inside `nls()`.
+* **Alternative SAR forms** – swap in a power or Lomolino model by changing the formula inside `nls()`.
 * **Visualisation** – use `ggplot(estimates_tbl, aes(hat_S)) + geom_histogram()` for publication‑quality plots.
 
 ---
