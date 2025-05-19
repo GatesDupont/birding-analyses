@@ -97,13 +97,6 @@ write_csv(estimates_tbl, "sar_estimates.csv")
 
 ---
 
-## 7. References & Further Reading
-
-* Fattorini L. (2010) *A general framework for estimating species richness*. **Ecology**, 91(12):3440–3450.
-* Smith AO et al. (2022) *Estimating unseen biodiversity from single‑visit checklists using accumulation curves*. **Methods Ecol Evol**.
-
----
-
-## 8. License
+## 7. License
 
 Apache License 2.0
